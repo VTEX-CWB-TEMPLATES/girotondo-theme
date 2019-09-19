@@ -50,6 +50,7 @@
     "children": [
       "product-summary-image",
       //"product-summary-identifier",
+     // "product-identifier",
       "product-summary-name",
       "product-summary-description",
       "product-summary-space",
@@ -71,6 +72,7 @@
       "showLabels": false
     }
   },
+
   "rich-text#summaryButton":{
     "props":{
       "text": "Veja mais"

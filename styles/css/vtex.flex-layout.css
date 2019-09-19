@@ -93,7 +93,7 @@
   .flexRow--contentFooter2{
     width: 100%;
     margin: 30px auto 30px;
-    border-top: 1px solid #c3c3c3;
+    border-top: 2px solid #cecece;
   }
   .flexRow--footerInfo-content .stretchChildrenWidth:first-child{
     width:70% !important;

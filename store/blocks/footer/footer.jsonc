@@ -218,41 +218,16 @@
     },  
     "flex-layout.row#certificados":{
       "children":[
-        "flex-layout.col#certificadoAnvisa",
-        "flex-layout.col#certificadoLetsEncrypt",
-        "flex-layout.col#certificadoGoogle"
+        "rich-text#letsEncrypt"
       ]
-    },
-    "flex-layout.col#certificadoAnvisa":{
-      "children":[
-        "rich-text#anvisa"
-      ]
-    },
-    "rich-text#anvisa":{
-      "props":{
-        "text":"![anvisa](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-anvisa___43d8fc0d2a66f769f9ceb8cadeb3f5bb.png)"
-      }
     },
     "rich-text#letsEncrypt":{
       "props":{
-        "text":"![lets Encrypt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-letsEncrypt___76b55795605e189b1e6c4416f2587e16.png)"
+        "text":"![lets Encrypt](https://girotondo.vteximg.com.br/arquivos/encrypt.png)",
+        "blockClass":"encryptImage"
       }
-    },
-    "flex-layout.col#certificadoLetsEncrypt":{
-      "children":[
-        "rich-text#letsEncrypt"
-      ]
-    },    
-    "flex-layout.col#certificadoGoogle":{
-      "children":[
-        "rich-text#google"
-      ]
-    },         
-    "rich-text#google":{
-      "props":{
-        "text":"![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
-      }
-    },        
+
+    }, 
 
       "rich-text#direitos":{
         "props":{

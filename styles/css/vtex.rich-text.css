@@ -92,6 +92,9 @@
   font-size:12px;  
 }
 
+.container--encryptImage .image{
+  width: 70px;
+}
 .container--footer-links .paragraph{
   margin: 0 0 10px;
 }

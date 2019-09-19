@@ -14,9 +14,10 @@
 
 .searchBarContainer input{
   padding: 13px 5px 13px 10px;
-  color:#8f8f8f;
-  line-height:1.42857;
-  height: auto; 
+  color: #8f8f8f;
+  line-height: 1.42857;
+  height: 37px;
+  background: #f1f1f1;
 }
 
 .infoCardContainer--info-card-home {
@@ -183,7 +184,10 @@
 .newsletter input{padding-left:5px;}
 
 @media only screen and (min-width: 640px){
-  .searchBarContainer label > div{height:55px !important;}
+  .searchBarContainer label > div{
+    height: 40px !important;
+    border: none;
+  }
   .newsletter .container {
     padding: 30px 10px;
   }
@@ -201,10 +205,11 @@
   }
 
   .searchBarIcon{
-    background: #d1d1d1;
-    padding: 19px 30px;
-    color: #fff;
+    background: #f6f6f6;
+    padding: 10px 30px;
+    color: #747474;
     margin-right: -17px;
+    margin-top: -4px;
   }
 
   .newsletter label:first-child{padding-right:10px;}
