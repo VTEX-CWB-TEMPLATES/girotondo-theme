@@ -60,8 +60,13 @@
 
   "flex-layout.row#footer3":{
     "children":[
-      "flex-layout.col#footer3Col1"
-    ]
+      "footer-spacer",
+      "rich-text#direitos",
+      "footer-spacer"
+    ],
+    "props":{
+      "blockClass": "contentFooter3"
+    }
   },  
 
   // Footer Col 1
@@ -175,7 +180,7 @@
 "flex-layout.col#footer2Col1":{
   "children":[
     "rich-text#pagamento",
-    "image#flagPayments"
+    "accepted-payment-methods"
   ],
   "props":{
     "blockClass": "footerTopMargin"
@@ -187,10 +192,11 @@
       "blockClass":"footer-title"
     }
   },
-  "image#flagPayments":{
+  "accepted-payment-methods":{
     "props":{
-      "alt":"Formas de pagamento",
-      "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/flag-payments___1988dec72f5caa1c8c700a68de4477a1.png"
+      "paymentMethods": [
+        "MasterCard", "Visa", "Diners Club"
+      ]
     }
   },
 
@@ -248,26 +254,6 @@
       }
     },        
 
-"flex-layout.col#footer3Col1":{
-  "children":[
-    "flex-layout.row#footerInfo"
-  ]
-},
-
-      "flex-layout.row#footerInfo":{
-        "children":[
-          "flex-layout.col#footerTextInfo"
-        ],
-        "props":{
-          "blockClass":"footerInfo-content"
-        }        
-      },
-      
-      "flex-layout.col#footerTextInfo":{
-        "children":[
-          "rich-text#direitos"
-        ]
-      },
       "rich-text#direitos":{
         "props":{
           "text":"oi",
@@ -302,7 +288,7 @@
   },
   "footer-row#1-mobile": {
     "children": [
-      "image#flagPayments",
+      "accepted-payment-methods",
       "footer-spacer",
       "social-networks"
     ],

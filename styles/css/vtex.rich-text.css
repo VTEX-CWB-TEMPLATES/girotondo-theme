@@ -179,6 +179,10 @@
   margin: 0 auto;   
 }
 
+.container--footer-text .link{
+  color: #555555;   
+  text-decoration: none;
+}
 .container--footer .paragraph{
   font-size: .8rem;
   color:#8a8a8a;

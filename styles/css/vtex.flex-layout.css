@@ -52,6 +52,10 @@
   width: 100%;
 }
 
+.flexRow--contentFooter3 {
+  width: 100%;
+  background: #ececec;
+}
 
 @media only screen and (min-width: 640px) {
   .flexRow--product-contentPrices{
