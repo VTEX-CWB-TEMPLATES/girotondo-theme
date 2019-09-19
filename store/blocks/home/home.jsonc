@@ -1,0 +1,119 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      //"flex-layout.row#deals",
+      "shelf#showcase01",
+      "shelf#showcase02"
+      // "info-card#home",
+      // "newsletter"
+    ]
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://analoren.ciaimg.com.br/Assets/Banner/2/primavera1.jpg?v=5e618cd-1",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://analoren.ciaimg.com.br/Assets/Banner/2/primavera1.jpg?v=5e618cd-1",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 900,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  // Showcase 01
+  "shelf#showcase01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "dots": true,
+        "titleText": "Medicamentos Especiais"
+      }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": false
+    }
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Comprar"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showLabels": false
+    }
+  },
+  // Showcase 02
+  "shelf#showcase02": {
+    "blocks": [
+      "product-summary.shelf#home2"
+    ],
+    "props": {
+      "category": "2",
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "consult-shelf",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "dots": true,
+        "titleText": "Produtos em destaque"
+      }
+    }
+  },
+  "product-summary.shelf#home2": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price"
+      // "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "consult-shelf"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": false
+    }
+  },
+  // "product-summary-buy-button":{
+  //   "props":{
+  //     "buyButtonText":"Comprar",
+  //   }
+  // },
+  "product-summary-price": {
+    "props": {
+      "showLabels": false
+    }
+  }
+}
