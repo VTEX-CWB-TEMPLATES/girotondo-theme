@@ -42,16 +42,17 @@
         "scroll": "BY_PAGE",
         "arrows": false,
         "dots": true,
-        "titleText": "Medicamentos Especiais"
+        "titleText": "Destaques"
       }
     }
   },
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
+      //"product-summary-identifier",
       "product-summary-name",
+      "product-summary-description",
       "product-summary-space",
-      "product-summary-price",
       "product-summary-buy-button"
     ]
   },
@@ -62,7 +63,7 @@
   },
   "product-summary-buy-button": {
     "props": {
-      "buyButtonText": "Comprar"
+      "buyButtonText": "Veja Mais"
     }
   },
   "product-summary-price": {
@@ -70,10 +71,15 @@
       "showLabels": false
     }
   },
+  "rich-text#summaryButton":{
+    "props":{
+      "text": "Veja mais"
+    }
+  },
   // Showcase 02
   "shelf#showcase02": {
     "blocks": [
-      "product-summary.shelf#home2"
+      "product-summary.shelf"
     ],
     "props": {
       "category": "2",
@@ -87,33 +93,6 @@
         "dots": true,
         "titleText": "Produtos em destaque"
       }
-    }
-  },
-  "product-summary.shelf#home2": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-space",
-      "product-summary-price"
-      // "product-summary-buy-button"
-    ],
-    "props": {
-      "blockClass": "consult-shelf"
-    }
-  },
-  "product-summary-image": {
-    "props": {
-      "showBadge": false
-    }
-  },
-  // "product-summary-buy-button":{
-  //   "props":{
-  //     "buyButtonText":"Comprar",
-  //   }
-  // },
-  "product-summary-price": {
-    "props": {
-      "showLabels": false
     }
   }
 }
