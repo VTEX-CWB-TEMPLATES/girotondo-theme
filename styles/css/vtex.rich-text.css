@@ -76,6 +76,7 @@
   font-size: 15px;
   color: #00607f;  
   font-weight: bold;
+  margin: 10px 0px 0px;
 }
 
 .container--alert{justify-content: center;}
@@ -237,6 +238,13 @@
 
 .container--title-section-block h3:hover + p, .container--title-section-block h3:hover + ul, .container--title-section-block h3:hover + p + ul{opacity: 1;height: auto;font-size:.8rem;border:1px solid #dedede;border-radius:5px;padding:10px;margin-bottom: 10px;}
 
+.container--footer-text .heading-level-4{
+  font-size: 20px;
+  margin: 0px;
+}
+.container--footer-text .paragraph{
+  font-size: 13px;
+}
 @media only screen and (min-width: 640px) {
   .container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:1rem;}
   .container--question .strong {

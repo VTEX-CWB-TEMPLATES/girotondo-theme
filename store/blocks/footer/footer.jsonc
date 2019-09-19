@@ -47,11 +47,11 @@
 
   "flex-layout.row#footer2":{
     "children":[
+      "footer-spacer",
       "flex-layout.col#footer2Col1",
       "footer-spacer",
       "flex-layout.col#footer2Col2",
-      "footer-spacer",
-      "flex-layout.col#footer2Col3"
+      "footer-spacer"
     ],
     "props":{
       "blockClass":"contentFooter2"
@@ -145,7 +145,8 @@
 
 "flex-layout.col#footerCol3":{
   "children":[
-    "rich-text#facebookLikebox"
+    "rich-text#facebookLikebox",
+    "social-networks"
   ],
   "props":{
     "blockClass":"footer-content3"
@@ -156,22 +157,6 @@
     "text":"."
   }
 },
-
-"flex-layout.col#footer2Col1":{
-  "children":[
-    "rich-text#siganos",
-    "social-networks"
-  ],
-  "props":{
-    "blockClass":"content-footerRow2"
-  }
-},
-        "rich-text#siganos":{
-          "props":{
-            "text":"SIGA NOS!",
-            "blockClass":"footer-title"
-          }
-        },
         "social-networks": {
           "props": {
             "socialNetworks": [
@@ -187,11 +172,14 @@
           }
         },
 
-"flex-layout.col#footer2Col2":{
+"flex-layout.col#footer2Col1":{
   "children":[
     "rich-text#pagamento",
     "image#flagPayments"
-  ]
+  ],
+  "props":{
+    "blockClass": "footerTopMargin"
+  }
 },        
   "rich-text#pagamento":{
     "props":{
@@ -207,11 +195,14 @@
   },
 
   // Footer 3
-  "flex-layout.col#footer2Col3":{
+  "flex-layout.col#footer2Col2":{
     "children":[
       "rich-text#seguranca",
       "flex-layout.row#certificados"
-    ]
+    ],
+    "props":{
+      "blockClass": "footerTopMargin"
+    }
   },        
     "rich-text#seguranca":{
       "props":{
@@ -265,8 +256,7 @@
 
       "flex-layout.row#footerInfo":{
         "children":[
-          "flex-layout.col#footerTextInfo",
-          "flex-layout.col#footerLinkDev"
+          "flex-layout.col#footerTextInfo"
         ],
         "props":{
           "blockClass":"footerInfo-content"
@@ -275,32 +265,16 @@
       
       "flex-layout.col#footerTextInfo":{
         "children":[
-          "rich-text#direitos",
-          "rich-text#direitosReservados"
+          "rich-text#direitos"
         ]
       },
       "rich-text#direitos":{
         "props":{
-          "text":"(A) As informações incluídas neste site não devem ser utilizadas para automedicação e não substituem, em hipótese alguma, as orientações prestadas pelo profissional da área médica. Somente o médico está apto a diagnosticar qualquer problema de saúde e prescrever o tratamento adequado.<br/>(B) É um medicamento. Seu uso pode trazer riscos. Procure o médico e o farmacêutico. Leia a bula.<br/>(C) Todos os medicamentos sob prescrição necessitam de apresentação de receita médica e só serão dispensados mediante a apresentação da receita e devida averiguação por parte do farmacêutico. No qual deverá ser enviada pelo email: sac@mundialfarma.com.br ou pelo whatsapp (031) 98881-7737. Em caso de dúvidas entre em contato com o farmacêutico. Qualquer dúvida sobre prescrição médica e produtos divulgados em nosso site, entre em contato através do nosso atendimento ao cliente ou dirigir-se a nossa loja, contamos com um profissional da área farmacêutica para maiores esclarecimentos.<br/>(D) Os preços e condições de pagamento contidos neste site são exclusivos para compras efetuadas pela loja online. Imagens meramente ilustrativas de acordo com a legislação vigente.<br/>(E) Todos os pedidos estão sujeitos à confirmação dos dados cadastrais e de entrega. Esta confirmação, quando necessária, será feita através de contato telefônico e visa garantir a sua segurança.<br/>",
+          "text":"oi",
           "blockClass":"text-direitos"
         }
       },
-      "rich-text#direitosReservados":{
-        "props":{
-          "text":"® MUNDIAL FARMA. TODOS OS DIREITOS RESERVADOS.",
-          "blockClass":"text-direitosReservados"
-        }
-      },
-      "flex-layout.col#footerLinkDev":{
-        "children":[
-          "flex-layout.row#contentLinks"
-        ]
-      },
-      "flex-layout.row#contentLinks":{
-        "children":[
-          "image#linkVtex"
-        ]
-      },
+
       "image#linkVtex":{
         "props":{
           "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
