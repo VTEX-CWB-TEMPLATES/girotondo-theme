@@ -9,7 +9,10 @@
       "shelf#showcase02"
       // "info-card#home",
       // "newsletter"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
   },
   "carousel#home": {
     "props": {
