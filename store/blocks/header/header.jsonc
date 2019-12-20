@@ -33,6 +33,7 @@
       "logo#desktop",
       "header-spacer",
       "search-bar",
+      "header-spacer",
       "header-spacer"
       //"minicart"
     ],
@@ -48,11 +49,22 @@
   },
   "header-row#menu": {
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+      //"vtex.menu@2.x:menu#category-menu"
+      "category-menu"
     ],
     "props": {
-      "blockClass": "menu-mundial"
+      "blockClass": "menu-mundial",
+      "sticky": true
       // "menuDisposition":"center"
+    }
+  },
+  "category-menu":{
+    "props": {
+      "showPromotionCategory": true,
+      "showGiftCategory": true,
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center"
     }
   },
   "rich-text#televendas": {

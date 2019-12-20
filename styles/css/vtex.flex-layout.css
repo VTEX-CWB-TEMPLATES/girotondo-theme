@@ -50,8 +50,9 @@
     padding-bottom: 50px;
   }
   .flexRow--contentFooter2{
-    width:100%;
-    margin: 0 auto 60px;
+    width: 100%;
+    margin: 30px auto 30px;
+    border-top: 2px solid #cecece;
   }
   .flexRow--footerInfo-content .stretchChildrenWidth:first-child{
     width:70% !important;
