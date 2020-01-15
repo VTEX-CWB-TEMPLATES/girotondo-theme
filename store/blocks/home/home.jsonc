@@ -53,7 +53,7 @@
     "children": [
       "product-summary-image",
       //"product-summary-identifier",
-     // "product-identifier",
+      // "product-identifier",
       "product-summary-name",
       "product-summary-description",
       "product-summary-space",
@@ -68,6 +68,9 @@
   "product-summary-buy-button": {
     "props": {
       "buyButtonText": "Veja Mais"
+    },
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
   "product-summary-price": {
@@ -75,9 +78,8 @@
       "showLabels": false
     }
   },
-
-  "rich-text#summaryButton":{
-    "props":{
+  "rich-text#summaryButton": {
+    "props": {
       "text": "Veja mais"
     }
   },

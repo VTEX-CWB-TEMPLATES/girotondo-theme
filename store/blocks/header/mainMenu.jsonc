@@ -1,0 +1,81 @@
+{
+    "vtex.menu@2.x:menu#mainMenu": {
+        "children": [
+            "menu-item#food",
+            "menu-item#bath",
+            "menu-item#toys",
+            "menu-item#chair",
+            "menu-item#care",
+            "menu-item#layette",
+            "menu-item#tour"
+        ],
+        "props": {
+            "blockClass": "mainMenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#submenuStructure": {
+        "children": [
+            "vtex.menu@2.x:menu#mainSubmenu"
+        ]
+    },
+    "vtex.menu@2.x:menu#mainSubmenu": {
+        "props": {}
+    },
+    //ALIMENTAÇÃO
+    "menu-item#food": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Aliementação"
+        }
+    },
+    "menu-item#bath": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Banho"
+        }
+    },
+    "menu-item#toys": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Brinquedo"
+        }
+    },
+    "menu-item#chair": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Cadeira"
+        }
+    },
+    "menu-item#care": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Cuidados Bebê"
+        }
+    },
+    "menu-item#layette": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Enxoval"
+        }
+    },
+    "menu-item#tour": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#submenuStructure"
+        ],
+        "props": {
+            "text": "Passeio"
+        }
+    }
+}

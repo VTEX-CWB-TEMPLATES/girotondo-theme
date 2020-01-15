@@ -7,37 +7,37 @@
       "menu-item#materiais"
     ]
   },
-  "menu-item#medicamentos":{
-      "props": {
-        "id": "menu-item-category-medicamentos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/medicamentos-especiais/",
-          "noFollow": true,
-          "tagTitle": "Medicamentos especiais",
-          "text": "Medicamentos especiais"
-        }
-      }    
+  "menu-item#medicamentos": {
+    "props": {
+      "id": "menu-item-category-medicamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos-especiais/",
+        "noFollow": true,
+        "tagTitle": "Medicamentos especiais",
+        "text": "Medicamentos especiais"
+      }
+    }
   },
-  "menu-item#oncologicos":{
-      "props": {
-        "id": "menu-item-category-medicamentos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/oncologicos/",
-          "noFollow": true,
-          "tagTitle": "Oncologicos",
-          "text": "Oncologicos"
-        }
-      }    
+  "menu-item#oncologicos": {
+    "props": {
+      "id": "menu-item-category-medicamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oncologicos/",
+        "noFollow": true,
+        "tagTitle": "Oncologicos",
+        "text": "Oncologicos"
+      }
+    }
   },
-  "menu-item#fertilidade":{
+  "menu-item#fertilidade": {
     "props": {
       "id": "menu-item-category-fertilidade",
       "type": "custom",
@@ -50,8 +50,8 @@
         "tagTitle": "Fertilidade",
         "text": "Fertilidade"
       }
-    }    
-},
+    }
+  },
   "menu-item#materiais": {
     "props": {
       "id": "menu-item-materiais",
@@ -116,5 +116,5 @@
         "text": "Pediátrico"
       }
     }
-  }    
+  }
 }

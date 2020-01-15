@@ -50,7 +50,8 @@
   "header-row#menu": {
     "children": [
       //"vtex.menu@2.x:menu#category-menu"
-      "category-menu"
+      // "category-menu"
+      "vtex.menu@2.x:menu#mainMenu"
     ],
     "props": {
       "blockClass": "menu-mundial",
@@ -58,7 +59,7 @@
       // "menuDisposition":"center"
     }
   },
-  "category-menu":{
+  "category-menu": {
     "props": {
       "showPromotionCategory": true,
       "showGiftCategory": true,

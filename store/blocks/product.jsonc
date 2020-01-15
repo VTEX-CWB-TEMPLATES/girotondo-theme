@@ -6,10 +6,7 @@
       "shelf.relatedProducts"
       // "product-reviews",
       // "product-questions-and-answers"
-    ],
-    "parent": {
-      "challenge": "challenge.trade-policy-condition"
-    }
+    ]
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
